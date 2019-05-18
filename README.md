@@ -38,31 +38,38 @@ npm run test
 
 ## Endpoint Gateway
 
-GET
-"/gateway/:gatewayId" - Get a gateway by Id
-"/gateway" - Get all gateways
+- GET
 
-POST
-"/gateway" - Save a gateway
+  - "/gateway/:gatewayId" - Get a gateway by Id
 
-PUT
-"/gateway/:gatewayId" - Update a gateway
+  - "/gateway" - Get all gateways
 
-DELETE
-"/gateway/:gatewayId" - Delete a gateway by Id
-"/gateway/:gatewayId/device/:deviceId" - Delete a device from a gateway by Id
+- POST
+
+  - "/gateway" - Save a gateway
+
+- PUT
+
+  - "/gateway/:gatewayId" - Update a gateway
+
+- DELETE
+  - "/gateway/:gatewayId" - Delete a gateway by Id
+  - "/gateway/:gatewayId/device/:deviceId" - Delete a device from a gateway by Id
 
 ## Endpoint Device
 
-GET
-"/device/:deviceId" - Get a device by Id
-"/device" - Get all devices
+- GET
 
-POST
-"/device" - Save a device
+  - "/device/:deviceId" - Get a device by Id
+  - "/device" - Get all devices
 
-PUT
-"/device/:deviceId" - Update a device
+- POST
 
-DELETE
-"/device/:deviceId" - Delete a device by Id
+  - "/device" - Save a device
+
+- PUT
+
+  - "/device/:deviceId" - Update a device
+
+- DELETE
+  - "/device/:deviceId" - Delete a device by Id
