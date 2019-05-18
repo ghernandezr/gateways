@@ -15,12 +15,10 @@ export const DeviceSchema = new Schema({
     default: Date.now,
   },
   status: {
-    type: [
-      {
-        type: String,
-        enum: ["online", "offline"],
-      },
-    ],
-    default: ["online"],
+    type: {
+      type: String,
+      enum: ["online", "offline"],
+      default: "online",
+    },
   },
 });
